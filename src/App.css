@@ -2,7 +2,7 @@ body {
   margin: 0;
   padding: 0;
   filter: grayscale(100%);
-  font-family: 'Times', serif;
+  font-family: 'Arial', sans-serif;
 }
 
 .App {
@@ -25,7 +25,8 @@ h1 {
 
 .highlight {
   display: block;
-  font-size: 5rem;
+  font-size: 5rem; /* Increased size by one step */
+  font-weight: 900; /* Keeping it bold for emphasis */
 }
 
 .subtitle {
@@ -37,17 +38,17 @@ h1 {
 
 .social-links {
   display: flex;
-  gap: 20px; /* Spacing between icons */
+  gap: 20px;
   margin-top: 1rem;
 }
 
 .social-links a {
   color: #333;
-  font-size: 2rem; /* Adjust the icon size */
+  font-size: 2rem;
   transition: color 0.3s;
 }
 
 .social-links a:hover {
-  color: #007bff; /* Change color on hover */
+  color: #007bff;
 }
 
