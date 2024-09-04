@@ -1,6 +1,6 @@
 import React from 'react';
 import './App.css';
-import { FaGithub, FaInstagram, FaLinkedin } from 'react-icons/fa';
+import { FaGithub, FaInstagram, FaLinkedin, FaTwitter } from 'react-icons/fa';
 
 function App() {
   return (
@@ -20,6 +20,9 @@ function App() {
           </a>
           <a href="https://www.linkedin.com/in/james-lim-557bb0153/" target="_blank" rel="noopener noreferrer">
             <FaLinkedin />
+          </a>
+          <a href="https://x.com/JamesLim2098807" target="_blank" rel="noopener noreferrer">
+            <FaTwitter />
           </a>
         </div>
       </header>
